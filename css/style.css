@@ -29,22 +29,27 @@ body {
     text-align: center;
     float: left;
     width: 79%;
-    background-color: #0294f3;      
+    background-color: #0294f3;
 }
-[id*=top]{
+
+[id*=top] {
     height: 250px;
 }
 
-#aboutpng{
+#aboutpng {
     width: 100%;
     height: 200px;
 
 }
 
 @media screen and (max-width: 500px) {
-    #header {
-      float: none;
-      display: block;
-      text-align: left;
+    #nav {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+
+    #content {
+        width: 100%;
+        margin-bottom: 1%;
     }
 }
