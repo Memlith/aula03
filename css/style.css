@@ -40,3 +40,11 @@ body {
     height: 200px;
 
 }
+
+@media screen and (max-width: 500px) {
+    #header {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
